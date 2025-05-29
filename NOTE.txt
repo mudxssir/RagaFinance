@@ -1,0 +1,26 @@
+Final Note
+
+I want to take a moment to thank RagaAI for giving me the opportunity to work on this project and submit my prototype. 
+t’s been a great learning experience building this agent from scratch, and I truly appreciate the challenge—it pushed me to explore a wide range of tools, technologies, and ways of thinking.
+Although the complete Streamlit app is not fully functional yet, I’ve made strong progress on all the core components individually.
+Each agent has been developed and tested with sample data or real-time inputs, and they work well on their own.
+
+Voice Agent: I’ve set up a system that accurately converts voice input into text and responds with speech. 
+It has been tested with clear prompts and gives natural-sounding responses.
+
+Retriever Agent: This component fetches the latest news related to stock tickers and uses vector embeddings with semantic similarity search to pull out the most relevant content. 
+I tested it with common tickers like AAPL and TSLA, and it returns meaningful results.
+
+Analysis Agent: It takes the retrieved content and does a basic level of sentiment analysis. 
+While simple for now, it lays the groundwork for deeper financial insight.
+
+Language Agent: Using a transformer-based model, it turns raw insights into a coherent summary of the market—like what you’d expect from a human-written brief.
+
+All of these are connected through an orchestrator, and the architecture is modular and easy to extend. 
+The final step—getting everything integrated in a smooth front-end using Streamlit—is in progress, and I plan to keep improving it even after this submission.
+
+To sum it up, this prototype reflects the direction I want to grow in: building intelligent, real-world tools that communicate clearly and help users make informed decisions. 
+I’m genuinely excited about RagaAI’s vision, and I’d love the chance to contribute to your work in a deeper way.
+
+Thanks again for considering my application. Looking forward to what’s next.
+Mudassir
